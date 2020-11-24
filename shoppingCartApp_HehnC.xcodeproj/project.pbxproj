@@ -16,6 +16,7 @@
 		A074202625658647000B9A9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A074202425658647000B9A9C /* LaunchScreen.storyboard */; };
 		A074203125658647000B9A9C /* shoppingCartApp_HehnCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A074203025658647000B9A9C /* shoppingCartApp_HehnCTests.swift */; };
 		A074203C25658647000B9A9C /* shoppingCartApp_HehnCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A074203B25658647000B9A9C /* shoppingCartApp_HehnCUITests.swift */; };
+		A0FE9B8A256C6D4C0062D59B /* CartAddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0FE9B89256C6D4C0062D59B /* CartAddViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		A074203725658647000B9A9C /* shoppingCartApp_HehnCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = shoppingCartApp_HehnCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A074203B25658647000B9A9C /* shoppingCartApp_HehnCUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shoppingCartApp_HehnCUITests.swift; sourceTree = "<group>"; };
 		A074203D25658647000B9A9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0FE9B89256C6D4C0062D59B /* CartAddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartAddViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				A074201825658646000B9A9C /* SceneDelegate.swift */,
 				A074201A25658646000B9A9C /* ViewController.swift */,
 				A074201C25658646000B9A9C /* Main.storyboard */,
+				A0FE9B89256C6D4C0062D59B /* CartAddViewController.swift */,
 				A074202225658647000B9A9C /* Assets.xcassets */,
 				A074202425658647000B9A9C /* LaunchScreen.storyboard */,
 				A074202725658647000B9A9C /* Info.plist */,
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A074201B25658646000B9A9C /* ViewController.swift in Sources */,
+				A0FE9B8A256C6D4C0062D59B /* CartAddViewController.swift in Sources */,
 				A074201725658646000B9A9C /* AppDelegate.swift in Sources */,
 				A074202125658646000B9A9C /* shoppingCartApp_HehnC.xcdatamodeld in Sources */,
 				A074201925658646000B9A9C /* SceneDelegate.swift in Sources */,
@@ -446,7 +450,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "CLC.shoppingCartApp-HehnC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = shoppingCartApp_HehnC;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -464,7 +468,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "CLC.shoppingCartApp-HehnC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = shoppingCartApp_HehnC;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
